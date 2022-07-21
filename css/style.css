@@ -355,7 +355,7 @@ html, body {
 .form-content h3 {
     color: #fff;
     text-align: left;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 900;
     margin-bottom: 10px;
 }
@@ -374,8 +374,9 @@ html, body {
     color: #fff;
     text-align: left;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -406,9 +407,10 @@ html, body {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
     margin-right: 20px;
+    margin-bottom: 20px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -430,7 +432,7 @@ html, body {
 }
 
 .form-content .page-links a.active {
-    font-weight: 700;
+    font-weight: 850;
 }
 
 .form-content .page-links a.active:after {
@@ -715,7 +717,7 @@ html, body {
     border: 0;
     padding: 6px 28px;
     background-color: #fff;
-    color: #29A4FF;
+    color: #4c29c8;
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -738,7 +740,7 @@ html, body {
 
 .form-content .form-button .ibtn:hover, .form-content .form-button .ibtn:focus {
     -webkit-box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 4px 4px rgba(18, 15, 100, 0.162);
 }
 
 .form-content .form-button .ibtn.less-padding {
