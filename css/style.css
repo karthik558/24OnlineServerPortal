@@ -16,7 +16,7 @@ html, body {
 }
 
 .form-body {
-    background-color: #f8a42a;
+    background-color: #97afd3;
     height: 100%;
 }
 
@@ -231,7 +231,7 @@ html, body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/kumarakomlakeresortimage3.jpg");
+    background-image: url("../images/coorg1.jpg");
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -269,19 +269,19 @@ html, body {
 }
 
 .form-holder .form-content ::-webkit-input-placeholder {
-    color: #f8a42a;
+    color: #97afd3;
 }
 
 .form-holder .form-content :-moz-placeholder {
-    color: #f8a42a;
+    color: #97afd3;
 }
 
 .form-holder .form-content ::-moz-placeholder {
-    color: #f8a42a;
+    color: #97afd3;
 }
 
 .form-holder .form-content :-ms-input-placeholder {
-    color: #f8a42a;
+    color: #97afd3;
 }
 
 .form-control:focus {
@@ -307,7 +307,7 @@ html, body {
 
 .form-content {
     position: relative;
-    background-color: #f8a42a;
+    background-color: #97afd3;
 }
 
 .form-content .form-group {
