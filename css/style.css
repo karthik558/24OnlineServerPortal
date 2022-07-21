@@ -1808,3 +1808,23 @@ input.sm-content {
         margin-top: 30px;
     }
 }
+
+/* -----------------------------------
+    Custom scrollbar style for form
+------------------------------------*/
+::-webkit-scrollbar{
+	width: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+	border-radius: 35px;
+	background: #f99909;
+  }
+  
+  ::-webkit-scrollbar-track{
+	box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+  }
+  
+  ::-webkit-scrollbar-track{
+	background: #fff;
+  } 
