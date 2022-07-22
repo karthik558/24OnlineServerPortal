@@ -24,3 +24,22 @@ $(window).on("load", function() {
         $(this).next().text(filename);
     });
 });
+
+/* Show multiple images of property */
+var images = [
+    '../images/property/klrettukettu.jpg',
+    '../images/property/klrhouseboat.jpg',
+    '../images/property/klrlobby.jpg',
+    '../images/property/klrroom.jpg',
+    '../images/property/klrvilla.jpg',
+];
+
+var i = 0;
+setInterval(function() {
+    var imageHead = document.getElementById("bgImg");
+      imageHead.style.backgroundImage = "url(" + images[i] + ")";
+      i = i + 1;
+      if (i == images.length) {
+        i =  0;
+      }
+}, 3000);
