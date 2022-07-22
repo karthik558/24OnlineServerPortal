@@ -25,7 +25,7 @@ $(window).on("load", function() {
     });
 });
 
-/* Show multiple images of property */
+/* Show multiple images of property
 var images = [
     '../images/property/klrettukettu.jpg',
     '../images/property/klrhouseboat.jpg',
@@ -42,4 +42,4 @@ setInterval(function() {
       if (i == images.length) {
         i =  0;
       }
-}, 3000);
+}, 3000);*/
