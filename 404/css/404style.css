@@ -1,3 +1,6 @@
+/* -----------------------------------
+    1 - General Styles
+------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -81,6 +84,10 @@ body {
   border-bottom: 1.5px dashed #97afd3;
   border-radius: 2px;
 }
+
+/* -----------------------------------
+    Notfound-social
+------------------------------------*/
 
 .notfound-social>a {
   display: inline-block;
